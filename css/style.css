@@ -1,0 +1,47 @@
+:root{
+  --main-text-color: #626262;
+  --accent-color: #03A9F4;
+  --bg-color: #FFFFFF;
+  --scnd-color: #B4AD9E;
+  --header-link-color: #7D7D7D;
+  --main--text--size: 14px;
+  --title--text--size: 30px;
+  }
+  body{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+  font-size: var(--title--text--size);
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+.header-link {
+  color: var(--header-link-color);
+}
+.header-link:hover, 
+.header-link:focus
+{
+  color: var(--accent-color);
+}
+.header-link-current {
+  color: var(--accent-color);
+}
+.galary-title {
+  font-size: var(--title--text--size);
+}
+.galary-name {
+  font-family: ;
+  color: var(--scnd-color);
+}
+  /* .ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  } */
