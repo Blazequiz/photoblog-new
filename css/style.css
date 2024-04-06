@@ -1,9 +1,10 @@
 :root{
-  --main-text-color: #626262;
-  --accent-color: #03A9F4;
-  --bg-color: #FFFFFF;
-  --scnd-color: #B4AD9E;
-  --header-link-color: #7D7D7D;
+  --main--ktext--color: #626262;
+  --accent--color: #03A9F4;
+  --bg--color: #FFFFFF;
+  --scnd--color: #B4AD9E;
+  --header--link--color: #7D7D7D;
+  --header--hover--color: #2196F3;
   --main--text--size: 14px;
   --title--text--size: 30px;
   }
@@ -25,8 +26,10 @@
 .header-link {
   color: var(--header-link-color);
 }
-.header-link:hover, 
-.header-link:focus
+.руф:hover, 
+.header-link:focus{
+  color: var(--header--hover--color);
+}
 {
   color: var(--accent-color);
 }
