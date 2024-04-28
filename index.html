@@ -6,73 +6,78 @@
     <title>Photoblog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- header -->
     <header class="header">
+      <div class="container">
       <nav class="header-nav">
       <ul class="header-list">
       <li class="header-list-item">
-      <a class="header-link-current" href="./">LIFESTYLE</a>
+      <a class="header-link" href="./">LIFESTYLE</a>
       </li>
       <li class="header-list-item">
       <a class="header-link" href="./">PHOTODIARY</a>
-      </li class="header-list-item">
-      <li>
+      </li>
+      <li class="header-list-item">
       <a class="header-link" href="./">MUSIC</a>
-      </li class="header-list-item">
-      <li>
+      </li>
+      <li class="header-list-item">
       <a class="header-link" href="./">TRAVEL</a>
       </li>
       </ul>
       </nav>
+    </div>
       </header>
     <!-- main -->
     <main class="galary">
+      <section>
+        <div class="container">
         <ul class="galary-list">
-          <li class="galary list item">
+          <li class="galary-list-item">
             <img src="./img/woman opt.jpg" alt="LIFESTYLE" />
             <a class="galary-name" href="./">LIFESTYLE</a>
             <h2 class="galary-title">More than just a music festival</h2>
-            <p>
+            <p class="galary-paragraph">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
               rem temporibus, error quos optio pariatur iusto natus eos
               mollitia, consequuntur a quis dolores quod quibusdam repellat!
               nventore laboriosam ea ipsam.
             </p>
           </li>
-          <li class="galary list item">
+          <li class="galary-list-item">
             <img src="./img/coffee opt.jpg" alt="LIFESTYLE" />
             <a class="galary-name" href="./">LIFESTYLE</a>
-            <h2>Life tastes better with coffee</h2>
-            <p>
+            <h2 class="galary-title">Life tastes better with coffee</h2>
+            <p class="galary-paragraph">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut a
               molestiae impedit cum veniam, eveniet ad accusamus. Deserunt
               praesentium laboriosam minus quis accusantium harum ut molestiae
               deleniti, quam possimus dolor!
             </p>
           </li>
-          <li class="galary list item">
+          <li class="galary-list-item">
             <img src="./img/american dream opt.jpg" alt="PHOTODAIRY" />
             <a class="galary-name" href="./">PHOTODAIRY</a>
-            <h2>American dream</h2>
-            <p>
+            <h2 class="galary-title">American dream</h2>
+            <p class="galary-paragraph">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
               adipisci iusto similique vel debitis consequuntur deserunt maiores
               laudantium ullam ex. Expedita consequuntur reprehenderit optio
               assumenda fuga molestias illum nemo ducimus.
             </p>
           </li>
-          <li class="galary list item">
+          <li class="galary-list-item">
             <img src="./img/Alps opt.jpg" alt="PHOTODAIRY" />
             <a class="galary-name" href="./">PHOTODAIRY</a>
-            <h2>A day exploring the Alps</h2>
-            <p>
+            <h2 class="galary-title">A day exploring the Alps</h2>
+            <p class="galary-paragraph"> 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
               tempora eaque ipsa cupiditate, optio modi. Commodi illum assumenda
               cupiditate, eaque doloremque repellat. Eaque praesentium similique
@@ -82,8 +87,8 @@
           <li class="galary-list-item">
             <img src="./img/10 son for running opt.jpg" alt="LIFESTYLE" />
             <a class="galary-name" href="./">LIFESTYLE</a>
-            <h2>Top 10 song for running</h2>
-            <p>
+            <h2 class="galary-title">Top 10 song for running</h2>
+            <p class="galary-paragraph">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Recusandae quos, aliquam temporibus ut similique nemo, beatae sunt
               obcaecati at eum atque voluptatem laudantium quibusdam distinctio
@@ -92,9 +97,9 @@
           </li>
           <li class="galary-list-item">
             <img src="./img/winter dys opt.jpg" alt="LIFESTYLE" />
-            <a href="./">LIFESTYLE</a>
-            <h2>Cold winter days</h2>
-            <p>
+            <a class="galary-name" href="./">LIFESTYLE</a>
+            <h2  class="galary-title">Cold winter days</h2>
+            <p class="galary-paragraph">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
               temporibus vero eveniet. Nam, inventore cum sint reprehenderit
               quas impedit necessitatibus qui, quia debitis ipsam fuga illo.
@@ -102,7 +107,8 @@
             </p>
           </li>
         </ul>
-        <button type="button">Load more</button>
+        <button type="button" class="button">Load more</button>
+      </div>
       </section>
     </main>
     <footer></footer>
