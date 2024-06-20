@@ -30,6 +30,9 @@ a{
 h2{
   font-family: var(--font--family);
   font-size: var(--title--text--size);
+  font-weight: 400;
+  font-size: 30px;
+  color: #626262;
 }
 p {
   font-family: var(--font--family);
