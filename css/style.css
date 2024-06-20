@@ -7,7 +7,7 @@
   --header--hover--color: #2196F3;
   --main--text--size: 14px;
   --title--text--size: 30px;
-  --font--family--main:  "Playfair Display", sans-serif;
+  --font--family:  "Playfair Display", sans-serif;
   --font--family--h2:"Ubuntu", sans-serif; ;
   }
   body{
@@ -28,31 +28,30 @@ a{
   font-size:  var(--main--text--size);
 }
 h2{
-  font-family: var(--font--family--h2);
+  font-family: var(--font--family);
   font-size: var(--title--text--size);
 }
 p {
-  font-family: var(--font--family--main);
+  font-family: var(--font--family);
   font-size: var(--main--text--size);
 }
-
 .container{
   width: 936px;
   padding: 0 15px;
-  outline: 2px dashed  blue;
+  /* outline: 2px dashed  red; */
   margin: 0 auto;
 }
 .header{
-  display: flex;
+  margin-bottom: 92px;
 }
 .header-nav {
-  margin-bottom: 92px;
   color: var(--header--link--color)
 }
 .header-list{
   display: flex;
   gap: 100px;
   justify-content: center;
+  align-items: center;
 }
 .header-link {
   color: var(--header-link-color);
@@ -62,29 +61,40 @@ p {
 .header-link:focus{
   color: var(--header--hover--color);
 }
+.galary-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 95px;
+  padding-left: 0;
+  gap: 65px;
+}
 {
   color: var(--accent-color);
 }
 .galary-name {
+  margin-bottom: 32px;
   font-family:var(--font--family--h2) ;
-  color: var(--scnd-color);
   color: var(--scnd--color);
-}
-.galary-list {
- display: flex;
- flex-wrap: wrap;
- margin-bottom: 95px;
- padding-left: 0;
- column-gap: 65px;
- row-gap: 130px;
 }
 .galary-list-item {
   width: 420px;
+  flex-basis:calc(100% - 65px)/1;
+}
+.galary-paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
 }
 .button{
-  margin-top: 90px;
+  margin: 0 auto;
+  display: block;
   padding: 20px 48px;
   color: var(--main-text-color);
   background-color: #fff;
+  font-family: var(--font--family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
 }
 
