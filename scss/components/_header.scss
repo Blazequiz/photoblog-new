@@ -1,0 +1,35 @@
+a{
+  font-family: var(--main--text--size);
+  font-size:  var(--main--text--size);
+}
+h2{
+  font-family: var(--font--family);
+  font-size: var(--title--text--size);
+  font-weight: 400;
+  font-size: 30px;
+  color: #626262;
+}
+p {
+  font-family: var(--font--family);
+  font-size: var(--main--text--size);
+}
+.header{
+  margin-bottom: 92px;
+}
+.header-nav {
+  color: var(--header--link--color)
+}
+.header-list{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.header-link {
+  color: var(--header-link-color);
+  font-family: var(--font--family--main);
+}
+.header-link:hover, 
+.header-link:focus{
+  color: var(--header--hover--color);
+}

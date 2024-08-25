@@ -1,0 +1,34 @@
+.galary-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 95px;
+  padding-left: 0;
+  gap: 65px;
+  color: var(--accent-color);
+}
+.galary-name {
+  margin-bottom: 32px;
+  font-family:var(--font--family--h2) ;
+  color: var(--scnd--color);
+}
+.galary-list-item {
+  width: 420px;
+  flex-basis:calc(100% - 65px)/1;
+}
+.galary-paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+}
+.button{
+  margin: 0 auto;
+  display: block;
+  padding: 20px 48px;
+  color: var(--main-text-color);
+  background-color: #fff;
+  font-family: var(--font--family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+}
